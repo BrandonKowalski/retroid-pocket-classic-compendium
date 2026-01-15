@@ -13,7 +13,3 @@ If it exists, Russ has a video for it.
 *With that in mind, here goes nothing!*
 
 ❤️
-
-[Enter The Compendium](https://unclejun.vip/retroid-pocket-classic-compendium/)
-
----

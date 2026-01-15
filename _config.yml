@@ -7,7 +7,7 @@ github:
   source:
     branch: "main"
     path: "/"
-  repository_url: "https://github.com/UncleJunVIP/retroid-pocket-classic-compendium"
+  repository_url: "https://github.com/BrandonKowalski/retroid-pocket-classic-compendium"
 
 name: Retroid Pocket Classic Compendium
 description: "A distilled, opinionated look at the RPC."

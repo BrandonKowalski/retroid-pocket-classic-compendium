@@ -1,8 +1,8 @@
 site_name: Retroid Pocket Classic Compendium
-site_url: https://unclejun.vip/retroid-pocket-classic-compendium/
-repo_url: https://github.com/UncleJunVIP/retroid-pocket-classic-compendium
-edit_uri: https://github.com/UncleJunVIP/retroid-pocket-classic-compendium/edit/main/docs/
-repo_name: UncleJunVIP/retroid-pocket-classic-compendium
+site_url: https://brandonkowalski.github.io/retroid-pocket-classic-compendium/
+repo_url: https://github.com/BrandonKowalski/retroid-pocket-classic-compendium
+edit_uri: https://github.com/BrandonKowalski/retroid-pocket-classic-compendium/edit/main/docs/
+repo_name: BrandonKowalski/retroid-pocket-classic-compendium
 copyright: CC0 1.0 Universal
 
 theme:
