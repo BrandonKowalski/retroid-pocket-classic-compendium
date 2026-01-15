@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+
+# MkDocs
+site/
+
+# IDE
+.idea/
+.vscode/
+*.swp
