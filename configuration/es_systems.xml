@@ -96,6 +96,7 @@
     <system>
         <name>androidapps</name>
         <fullname>Tools</fullname>
+        <systemsortname>012 - BTK</systemsortname>
         <path>%ROMPATH%/androidapps</path>
         <extension>.app .APP</extension>
         <command label="Android App">%ANDROIDAPP%=%FILEINJECT%</command>
@@ -105,6 +106,7 @@
     <system>
         <name>androidgames</name>
         <fullname>Ports</fullname>
+        <systemsortname>011 - BTK</systemsortname>
         <path>%ROMPATH%/androidgames</path>
         <extension>.app .APP</extension>
         <command label="Android Game">%ANDROIDAPP%=%FILEINJECT%</command>
@@ -778,6 +780,7 @@
     <system>
         <name>gc</name>
         <fullname>Nintendo GameCube</fullname>
+        <systemsortname>006 - BTK</systemsortname>
         <path>%ROMPATH%/gc</path>
         <extension>.ciso .CISO .dff .DFF .dol .DOL .elf .ELF .gcm .GCM .gcz .GCZ .iso .ISO .json .JSON .m3u .M3U .rvz .RVZ .tgc .TGC .wad .WAD .wbfs .WBFS .wia .WIA .7z .7Z .zip .ZIP</extension>
         <command label="Dolphin">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/dolphin_libretro_android.so %EXTRA_ROM%=%ROM%</command>
@@ -790,7 +793,7 @@
     <system>
         <name>genesis</name>
         <fullname>Sega Genesis</fullname>
-        <systemsortname>006 - BTK</systemsortname>
+        <systemsortname>009 - BTK</systemsortname>
         <path>%ROMPATH%/genesis</path>
         <extension>.32x .32X .68k .68K .bin .BIN .bms .BMS .chd .CHD .cue .CUE .gen .GEN .gg .GG .iso .ISO .m3u .M3U .md .MD .mdx .MDX .sg .SG .sgd .SGD .smd .SMD .sms .SMS .7z .7Z .zip .ZIP</extension>
         <command label="Genesis Plus GX">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/genesis_plus_gx_libretro_android.so %EXTRA_ROM%=%ROM%</command>
@@ -1465,6 +1468,7 @@
     <system>
         <name>ps2</name>
         <fullname>Sony PlayStation 2</fullname>
+        <systemsortname>008 - BTK</systemsortname>
         <path>%ROMPATH%/ps2</path>
         <extension>.bin .BIN .chd .CHD .ciso .CISO .cso .CSO .dump .DUMP .elf .ELF .gz .GZ .m3u .M3U .mdf .MDF .img .IMG .iso .ISO .isz .ISZ .ngr .NRG</extension>
         <command label="AetherSX2 (Standalone)">%EMULATOR_AETHERSX2% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.MAIN %EXTRA_bootPath%=%ROMSAF%</command>
@@ -1577,6 +1581,7 @@
     <system>
         <name>saturn</name>
         <fullname>Sega Saturn</fullname>
+        <systemsortname>010 - BTK</systemsortname>
         <path>%ROMPATH%/saturn</path>
         <extension>.bin .BIN .ccd .CCD .chd .CHD .cue .CUE .iso .ISO .m3u .M3U .mds .MDS .toc .TOC .7z .7Z .zip .ZIP</extension>
         <command label="Beetle Saturn">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/mednafen_saturn_libretro_android.so %EXTRA_ROM%=%ROM%</command>
